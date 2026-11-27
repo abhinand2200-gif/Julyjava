@@ -28,6 +28,7 @@ public WebDriver driver;
 			 password.clear();
 			 password.sendKeys(pswd);
 			 Thread.sleep(2000);
+			 driver.windoow.maximize();
 		 }
 		 public void submiytbuttn() {
 			 submit.click();
